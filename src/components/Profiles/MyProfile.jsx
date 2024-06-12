@@ -23,7 +23,7 @@ function MyProfile() {
   return (
 
     <div>
-        <div className='bg-black text-white'>
+        <div className='bg-gray-900 text-white'>
         {viewProfile ? 
           <ProfileImage img={user?.ProfileImage} toggleview={toggleViewProfile} edit={true}/>
           : 

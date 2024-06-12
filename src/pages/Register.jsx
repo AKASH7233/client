@@ -54,8 +54,8 @@ export default function Register() {
 
   
   return (
-   <div className="bg-black h-screen pt-3 lg:pt-10 ">
-    <div className="max-w-md md:border-2 lg:border-2 xl:border-2 2xl:border-2 border-neutral-600  w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-black">
+   <div className="bg-gray-900 h-screen pt-3 lg:pt-10 ">
+    <div className="max-w-md md:border-2 lg:border-2 xl:border-2 2xl:border-2 border-neutral-600  w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-gray-900">
       <h2 className="font-bold text-xl text-neutral-200">
         Welcome to ConnectiFy !!
       </h2>

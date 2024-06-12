@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useDispatch } from 'react-redux';
 import { BlinkViewed, getBlink } from '@/redux/blinkSlice';
-import  Zuck  from 'zuck.js';
+import { Zuck } from 'zuck.js';
 import 'zuck.js/css';
 import 'zuck.js/skins/snapgram';
 import '../../Custom.css';

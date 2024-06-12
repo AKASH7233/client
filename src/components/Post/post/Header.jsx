@@ -112,11 +112,11 @@ function Header({post}) {
         </div>
         <h2 onClick={()=>{setReadMore(prev => !prev)}} className={`text-gray-400 mt-2 ml-5 w-[80vw] ${readMore ? 'clip' : 'truncate'} break-words`}>{post?.title}</h2>
         {showOptions &&
-          <div className='absolute bg-black bottom-0 w-full text-white text-center'>
+          <div className='absolute bg-gray-900 bottom-0 w-full text-white text-center'>
             {!selfID && <h2 className='py-2'>Do not recommend</h2>}
             {selfID && <div>
-              <h2 className='bg-black bg-opacity-90 border-2 border-gray-700 text-sm py-3 text-white '>Hide Post</h2>
-              <h2 className='bg-black bg-opacity-90  text-sm py-3 text-white '>Delete Post</h2></div> }
+              <h2 className='bg-gray-900 bg-opacity-90 border-2 border-gray-700 text-sm py-3 text-white '>Hide Post</h2>
+              <h2 className='bg-gray-900 bg-opacity-90  text-sm py-3 text-white '>Delete Post</h2></div> }
           </div>
         }
         {showOptions && 

@@ -43,7 +43,7 @@ export default function StoryList({ onSelectStory }) {
               src = {userProfileImg}
               alt={currentUser?.username}
             />
-            <span className='absolute bottom-1 right-3'><IoIosAddCircleOutline className='text-xl bg-black'/></span>
+            <span className='absolute bottom-1 right-3'><IoIosAddCircleOutline className='text-xl bg-gray-900'/></span>
           </div>
           <p className="text-center text-sm mt-3">{`Add a Blink`}</p>
         </div>}

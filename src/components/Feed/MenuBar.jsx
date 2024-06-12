@@ -27,7 +27,7 @@ function MenuBar({ActiveMenuItem}) {
 
 
   return (
-    <div className='bg-black h-[100vh] flex flex-col justify-between'>
+    <div className='bg-gray-900 h-[100vh] flex flex-col justify-between'>
         <div className='flex flex-col gap-y-3 my-2'>
             <Link to={'/'}><button className={`flex items-center justify-left gap-x-10 mx-2 ${respItem == 'Home' ? 'bg-gray-900 bg-opacity-90 border-gray-700' : ''} rounded-xl p-2 w-full md:w-52 hover:bg-gray-900 hover:bg-opacity-90 border-2 border-black text-white hover:border-gray-700`}><FaHome className='text-lg'/><span>Home</span></button></Link>
             <Link to={'/search'}><button className={`flex items-center justify-left gap-x-10 mx-2 ${respItem == 'Search' ? 'bg-gray-900 bg-opacity-90 border-gray-700' : ''} rounded-xl p-2 w-72 md:w-52  hover:bg-gray-900 hover:bg-opacity-90 border-2 border-black text-white hover:border-gray-700`}><FaSearch className='text-lg'/><span>Search</span></button></Link>

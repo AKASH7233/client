@@ -27,7 +27,7 @@ import Blink from '../Blinks/Blink'
   return (
     <div>
       <div><Blink/></div>
-      <div className={`bg-black -my-5 `} id='feed'>
+      <div className={`bg-gray-900 -my-5 `} id='feed'>
         {posts?.map((post)=>(
               <Post key={post._id} post={post} />
         ))}

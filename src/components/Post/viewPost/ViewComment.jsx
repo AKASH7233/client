@@ -95,7 +95,7 @@ function ViewComment({info , reply = true ,render}) {
     <>
       {
         reload && 
-        <div className= {`relative bg-black  py-5 px-4`} >
+        <div className= {`relative bg-gray-900  py-5 px-4`} >
       <div className='flex items-center justify-between '>
         <div className='text-white'>
           <div className=' text-gray-400 flex gap-x-3 items-center '>
@@ -141,7 +141,7 @@ function ViewComment({info , reply = true ,render}) {
       </div>
       {
         viewOptions && 
-        <div className={`text-white text-sm w-[30vw] bg-black flex flex-col whitespace-nowrap absolute right-8 top-5`}>
+        <div className={`text-white text-sm w-[30vw] bg-gray-900 flex flex-col whitespace-nowrap absolute right-8 top-5`}>
           {ownerOfComment && <button onClick={startEditingComment} className='w-full  border border-gray-700'>Edit</button>}
           {
             reply && replyComments?.length == 0 &&

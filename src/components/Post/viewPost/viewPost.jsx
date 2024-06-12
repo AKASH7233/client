@@ -53,7 +53,7 @@ function ViewPost() {
     {
       postInfo &&
       <>
-        <div className='bg-black py-2'>
+        <div className='bg-gray-900 py-2'>
           {/* <Header post={postInfo}/>
           <Like post={postInfo} render={load}/> */}
           <Post post={postInfo}/>

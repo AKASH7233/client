@@ -44,7 +44,7 @@ function ProfileFooter({user}) {
   // // console.log(bookedPosts);
 
   return (
-    <div className='bg-black mt-2'>
+    <div className='bg-gray-900 mt-2'>
         <div className='flex justify-evenly items-center text-xl'>
           <button onClick={(e)=>{setOptions('post')}} className={`text-gray-400 hover:bg-gray-900 hover:bg-opacity-90 hover:border-2 hover:border-gray-700 hover:text-white px-10 py-2 rounded-[10px] ${options == 'post' ? ' bg-gray-900 bg-opacity-90 border-2 border-gray-700 text-white' : ''}`}  name='post'><FaRegImages /></button>
           

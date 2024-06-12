@@ -13,7 +13,7 @@ function HiddenPost() {
         })()
     },[])
   return (
-    <div className='min-h-[100vh] bg-black py-4'>
+    <div className='min-h-[100vh] bg-gray-900 py-4'>
         <h2 className='text-center text-white text-xl mb-4'>Hidden Posts</h2>
         {post && 
             <div className='flex flex-wrap'>{post?.map((post)=>{

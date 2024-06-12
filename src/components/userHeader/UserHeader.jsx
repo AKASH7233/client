@@ -28,7 +28,7 @@ function UserHeader({user}) {
     }
   return (
     <div>
-        <div className='bg-black text-gray-400 flex justify-between py-3 px-4'>
+        <div className='bg-gray-900 text-gray-400 flex justify-between py-3 px-4'>
             <Link to={`/${userID}`}>
                 <div className='flex gap-x-3 items-center'>
                 <img src={profileImg} alt="post_file" className='w-10 h-10 rounded-[50%] object-fit'/>

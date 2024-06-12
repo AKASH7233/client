@@ -37,10 +37,10 @@ function Search() {
  
       return (
        
-        <div className='bg-black py-4'>
-          <div className='min-h-[100vh] bg-black'>
+        <div className='bg-gray-900 py-4'>
+          <div className='min-h-[100vh] bg-gray-900'>
             
-            <div className='bg-black px-10 py-5 relative'>
+            <div className='bg-gray-900 px-10 py-5 relative'>
               <input 
               type="text" 
               value={Search}

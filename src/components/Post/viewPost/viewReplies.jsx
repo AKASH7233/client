@@ -26,7 +26,7 @@ function ViewReplies() {
           <h2 className='text-white text-xl italic text-center'>Comment</h2>
           <h2 className='bg-white text-center w-24  h-1 rounded-xl absolute left-[37%] my-1'></h2>
         </div>
-        <div className='py-7 mb-10 bg-black'>
+        <div className='py-7 mb-10 bg-gray-900'>
           <ViewComment info={RepliedComment} reply={false}/>
         </div>
         <div className='pb-[50px] overflow-hidden'>
@@ -35,7 +35,7 @@ function ViewReplies() {
             <ViewComment info={reply} reply={false} key={reply?._id}/>
           ))}
         </div>
-        <div className='bg-black z-50 py-3 fixed w-full lg:w-[30%] bottom-0'>
+        <div className='bg-gray-900 z-50 py-3 fixed w-full lg:w-[30%] bottom-0'>
           <Comment post={commentId} reply={true}/>
         </div>
     </div>

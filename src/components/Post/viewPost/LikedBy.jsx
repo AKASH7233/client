@@ -39,22 +39,22 @@ function LikedBy() {
       }
   
       return (
-        // <div className='bg-black py-3 min-h-[100vh]'>
+        // <div className='bg-gray-900 py-3 min-h-[100vh]'>
         //     <h2 className='text-center text-lg  text-white '>Liked By</h2>
         //     <h2 className=''>Liked By</h2>
         //   {likedBy?.length > 0 && likedBy?.map((user,i)=>(
         //     <UserHeader user={user?.users} key={i} userId={user?.users?._id} />
         //   ))}
         // </div>
-        <div className='bg-black py-4'>
+        <div className='bg-gray-900 py-4'>
             <div className='flex px-4 gap-x-20 items-center py-4 lg:gap-x-36'>
                 <BackBtn />
                 <h2 className='text-center  text-white'>Liked By</h2>
             </div>
-      <div className='min-h-[100vh] bg-black'>
+      <div className='min-h-[100vh] bg-gray-900'>
         {likedBy?.length == 0 && <div className='w-full h-[80vh]'><div className='flex justify-center items-center h-full '><h2 className='text-white text-xl '>0 Likes</h2></div></div>}
         {
-          likedBy?.length != 0 && <div className='bg-black px-10 py-5 relative'>
+          likedBy?.length != 0 && <div className='bg-gray-900 px-10 py-5 relative'>
           <input 
           type="text" 
           value={Search}

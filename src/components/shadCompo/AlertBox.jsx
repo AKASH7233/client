@@ -57,7 +57,7 @@ function AlertBox({warning,open,resFunc,id = ''}) {
     <div>
         <AlertDialog open={show}>
             
-            <AlertDialogContent className='bg-black w-[90vw] rounded-xl'>
+            <AlertDialogContent className='bg-gray-900 w-[90vw] rounded-xl'>
                 <AlertDialogHeader>
                 <AlertDialogTitle className={'text-white'}>Are you absolutely sure?</AlertDialogTitle>
                 <AlertDialogDescription className='text-gray-400'>

@@ -51,15 +51,15 @@ function Follow() {
   return (
     <>
       
-      <div className='flex justify-evenly items-center py-4 bg-black text-white border-b'>
+      <div className='flex justify-evenly items-center py-4 bg-gray-900 text-white border-b'>
       <button className={`bg-gray-900 bg-opacity-90 border-2 border-gray-700 text-md  py-1 px-4 rounded-[10px]`} onClick={()=>{setListType(listType)}}>{listType}</button>
       <h2 className='text-2xl opacity-15'>|</h2>
       <button className='px-4 py-2' onClick={()=>{setListType(otherType)}}>{otherType}</button>
     </div>
-    <div className='min-h-[100vh] bg-black'>
+    <div className='min-h-[100vh] bg-gray-900'>
       {user?.length == 0 && <div className='w-full h-[80vh]'><div className='flex justify-center items-center h-full '><h2 className='text-white text-xl '>No {listType}</h2></div></div>}
       {
-        user?.length != 0 && <div className='bg-black px-10 py-5 relative'>
+        user?.length != 0 && <div className='bg-gray-900 px-10 py-5 relative'>
         <input 
         type="text" 
         value={Search}
