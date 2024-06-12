@@ -6,7 +6,7 @@ function Blink() {
   return (
     <div className='flex items-center bg-gray-900'>
     <div className='text-white'><Story/></div>
-    <StoriesComponent />
+    {/* <StoriesComponent /> */}
   </div>
   )
 }
